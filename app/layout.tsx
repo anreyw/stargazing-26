@@ -1,6 +1,7 @@
 import { type Metadata } from 'next'
 import './globals.css'
 import { GeistSans } from 'geist/font/sans'
+import { clsx } from 'clsx'
 
 export const metadata: Metadata = {
   title: {
@@ -16,7 +17,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={GeistSans.className}>
+    <html lang="en" className={
+      clsx(
+      'h-full bg-white antialiased',
+      GeistSans.className
+      )
+    }>
       <body className="flex min-h-full">
 	<div className="flex w-full flex-col"> 
 	  {children}
