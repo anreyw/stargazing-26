@@ -16,6 +16,7 @@ export function Header() {
 	      <time dateTime="2022-04-04">04</time>-
 	      <time dateTime="2022-04-06">06 of April, 2022</time>
 	    </p>
+	    <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
 	  </div>
 	</div>
       </Container>
