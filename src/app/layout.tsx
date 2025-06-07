@@ -1,7 +1,9 @@
 import { type Metadata } from 'next'
-import './globals.css'
+import { DM_Sans, Inter } from 'next/font/google'
 import { GeistSans } from 'geist/font/sans'
 import { clsx } from 'clsx'
+
+import './globals.css'
 
 export const metadata: Metadata = {
   title: {
