@@ -3,7 +3,7 @@ import { DM_Sans, Inter } from 'next/font/google'
 import { GeistSans } from 'geist/font/sans'
 import { clsx } from 'clsx'
 
-import './globals.css'
+import '@/styles/globals.css'
 
 export const metadata: Metadata = {
   title: {
