@@ -8,6 +8,11 @@ export default function NotFound() {
     <Layout showFooter={false}>
       <div className="relative flex h-full items-center py-20 sm:py-36">
 	<BackgroundImage className="-top-36 bottom-0" />
+	<Container className="relative flex w-full flex-col items-center">
+	  <p className="font-display text-2xl tracking-tight text-blue-900">
+	    404
+	  </p>
+	</Container>
       </div>
     </Layout>
   )
