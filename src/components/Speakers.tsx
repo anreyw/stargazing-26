@@ -142,3 +142,11 @@ const days = [
 ]
 
 // ? Include ImageClipPaths function here ? 
+
+export function Speakers() {
+  return (
+    <section>
+      SPEAKERS
+    </section>
+  )
+}
