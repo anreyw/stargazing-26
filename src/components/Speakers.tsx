@@ -145,6 +145,7 @@ const days = [
 
 export function Speakers() {
   let id = useId()
+  let [tabOrientation, setTabOrientation] = useState('horizontal')
   
   return (
     <section>
