@@ -194,7 +194,7 @@ export function Speakers() {
 	  className=""
 	  vertical={tabOrientation === 'vertical'}
 	>
-	  <div>
+	  <div className="relative">
 
 	    {/* DECORATIVE LINE */}
 	    <div className="" />
