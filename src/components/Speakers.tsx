@@ -146,6 +146,33 @@ const days = [
 export function Speakers() {
   let id = useId()
   let [tabOrientation, setTabOrientation] = useState('horizontal')
+
+  
+  // This useEffect hook sets tabOrientation state based on the
+  // screen width.  It uses a JS Web API to query the window size
+  // using CSS media query syntax.
+  useEffect(() => {
+    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
+
+    // This function takes an object that is destructured and must
+    // have a `matches` property that is a boolean.  This strictly
+    // types for the MediaQueryList object that window.matchMedia
+    // returns above.
+    function onMediaQueryChange({ matches }: { matches: boolean}) {
+      setTabOrientation(matches ? 'vertical' : 'horizontal')
+    }
+
+    // Sync tabOrientation once on mount
+    onMediaQueryChange(lgMediaQuery)
+
+    // Sync continuously as the screen resizes
+    lgMediaQuery.addEventListener('change', onMediaQueryChange)
+
+    // Cleanup function
+    return () => {
+      lgMediaQuery.removeEventListener('change', onMediaQueryChange)
+    }
+  }, [])
   
   return (
     <section>
