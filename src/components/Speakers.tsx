@@ -195,8 +195,9 @@ export function Speakers() {
 	  vertical={tabOrientation === 'vertical'}
 	>
 	  <div>
-	    
-	    <div />
+
+	    {/* DECORATIVE LINE */}
+	    <div className="" />
 	    
 	    {/* TAB LIST*/}
 	    <TabList>
