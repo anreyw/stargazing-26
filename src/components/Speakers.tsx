@@ -144,9 +144,11 @@ const days = [
 // ? Include ImageClipPaths function here ? 
 
 export function Speakers() {
+  let id = useId()
+  
   return (
     <section>
-      SPEAKERS
+      <p>SPEAKERS</p>
     </section>
   )
 }
