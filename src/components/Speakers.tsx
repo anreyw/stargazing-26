@@ -181,6 +181,12 @@ export function Speakers() {
       className="py-20 sm:py-32"
     >
       <Container>
+	<div className="mx-auto max-w-2xl lg:mx-0">
+	  <h2
+	    id="speakers-title" // for section ARIA label
+	    className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+	  >Speakers</h2>
+	</div>
       </Container>
     </section>
   )
