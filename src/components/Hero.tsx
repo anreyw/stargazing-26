@@ -23,10 +23,10 @@ export function Hero() {
             <p>At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected.</p>
 
 	  </div>
+	  <Button href="#" className="mt-10 w-full sm:hidden">
+	    Register
+	  </Button>
 	</div>
-
-	
-
       </Container>
     </div>
   )
