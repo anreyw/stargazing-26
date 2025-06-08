@@ -175,8 +175,13 @@ export function Speakers() {
   }, [])
   
   return (
-    <section>
-      <p>SPEAKERS</p>
+    <section
+      id="speakers"
+      aria-labelledby="speakers-title"
+      className="py-20 sm:py-32"
+    >
+      <Container>
+      </Container>
     </section>
   )
 }
