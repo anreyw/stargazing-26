@@ -140,3 +140,5 @@ const days = [
     ],
   },
 ]
+
+// ? Include ImageClipPaths function here ? 
