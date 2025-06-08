@@ -16,6 +16,9 @@ export default function NotFound() {
 	    Page not found
 	  </h1>
 	  <p className="mt-4 text-lg tracking-tight text-blue-900 text-center px-4">Sorry, we couldn't find the page you're looking for.</p>
+	  <Button href="/" className="mt-8">
+	    Go back home
+	  </Button>
 	</Container>
       </div>
     </Layout>
