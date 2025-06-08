@@ -200,8 +200,42 @@ export function Speakers() {
 	    <div className="" />
 	    
 	    {/* TAB LIST*/}
-	    <TabList>
+	    <TabList className="grid">
+	      
+	      {({ selectedIndex }) => (
+		<>
+		  {days.map((day, dayIndex) => (
+		    <div key={day.dateTime} className="relative lg:pl-8">
 
+		      <DiamondIcon
+			className={clsx(
+			  'absolute top-2.25 left-[-0.5px] hidden h-1.5 w-1.5 -verflow-visible lg:block',
+			)}
+			
+		      />
+
+		      <div className="relative">
+			<div>
+
+			  <Tab>
+			    <span />
+			    {day.name}
+			  </Tab>
+
+			</div>
+
+			<time
+			>
+			  {day.date}
+			</time>
+			
+		      </div>
+
+		    </div>
+		  ))}
+		</>		
+	      )}
+	      
 	    </TabList>
 
 	    {/* TAB PANELS */}
