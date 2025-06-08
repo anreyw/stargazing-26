@@ -1,6 +1,9 @@
-import { BackgroundImage } from '@/components/BackgroundImage'
-import { Button } from '@/components/Button'
+import { Hero } from '@/components/Hero'
 
-export default function Page() {
-  return <></>
+export default function Home() {
+  return (
+    <>
+      <Hero />
+    </>
+  )
 }
