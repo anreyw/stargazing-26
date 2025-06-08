@@ -190,6 +190,25 @@ export function Speakers() {
 	    className="mt-4 font-display text-2xl tracking-tight text-blue-900"
 	  >Learn from the experts on the cutting-edge of deception at the most sinister companies.</p>
 	</div>
+	<TabGroup
+	  className=""
+	  vertical={tabOrientation === 'vertical'}
+	>
+	  <div>
+	    
+	    <div />
+	    
+	    {/* TAB LIST*/}
+	    <TabList>
+
+	    </TabList>
+
+	    {/* TAB PANELS */}
+	    <TabPanels>
+	      
+	    </TabPanels>
+	  </div>
+	</TabGroup>
       </Container>
     </section>
   )
