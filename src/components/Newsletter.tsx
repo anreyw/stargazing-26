@@ -18,3 +18,28 @@ function ArrowRightIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     </svg>
   )
 }
+
+export function Newsletter() {
+  return (
+
+    <section id="newsletter" aria-label="Newsletter">
+
+      <Container>
+
+	<div className="relative -mx-4 overflow-hidden bg-indigo-50 px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
+
+	  <Image />
+
+	  <div> 
+	    
+	  </div>
+	  
+	</div>
+	
+	
+      </Container>
+      
+    </section>
+    
+  )  
+}
