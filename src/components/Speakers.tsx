@@ -226,8 +226,8 @@ export function Speakers() {
 			  )}
 			>
 
-			  <Tab>
-			    <span />
+			  <Tab className="data-selected:not-data-focus:outline-hidden">
+			    <span className="absolute inset-0" />
 			    {day.name}
 			  </Tab>
 
