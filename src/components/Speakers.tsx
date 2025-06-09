@@ -141,8 +141,6 @@ const days = [
   },
 ]
 
-// ? Include ImageClipPaths function here ? 
-
 export function Speakers() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
@@ -277,17 +275,14 @@ export function Speakers() {
 		      >
 		      </div>
 
-		      <div
-			className="absolute inset-0 bg-indigo-50"	  
-		      >
-			<Image
-			  className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-			  src={speaker.image}
-			  alt=""
-			  priority
-			  sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-			/>
-		      </div>
+		       <Image
+			 className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+			 src={speaker.image}
+			 alt=""
+			 priority
+			 sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+		       />
+
 
 		    </div>
 		    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
