@@ -180,6 +180,8 @@ export function Speakers() {
       aria-labelledby="speakers-title"
       className="py-20 sm:py-32"
     >
+
+      {/*SECTION HEADING*/}
       <Container>
 	<div className="mx-auto max-w-2xl lg:mx-0">
 	  <h2
@@ -191,16 +193,18 @@ export function Speakers() {
 	  >Learn from the experts on the cutting-edge of deception at the most sinister companies.</p>
 	</div>
 	
+	{/*TAB LIST OF SPEAKERS*/}
 	<TabGroup
 	  className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
 	  vertical={tabOrientation === 'vertical'}
 	>
+	  
+	  {/* TAB LIST*/}
 	  <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
 
 	    {/* DECORATIVE LINE */}
 	    <div className="absolute top-2 bottom-0 left-0.5 hidden w-px bg-slate-200 lg:block" />
-	    
-	    {/* TAB LIST*/}
+	    	    
 	    <TabList className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 px-4 whitespace-nowrap sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
 	      
 	      {({ selectedIndex }) => (
@@ -248,14 +252,15 @@ export function Speakers() {
 		</>		
 	      )}
 	      
-	    </TabList>
+	    </TabList>	    
+	  </div>
 
-	    {/* TAB PANELS */}
-	    <TabPanels className="">
+	  {/* TAB PANELS */}
+	  <TabPanels className="lg:col-span-3">
 	      {days.map((day) => (
 		<TabPanel
 		  key={day.dateTime}
-		  className=""
+		  className="grid grid-cols-1 gap-x-8 gap-y-10 data-selected:not-data-focus:outline-hidden sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3"
 		  unmount={false}
 		>
 		  {day.speakers.map((speaker, speakerIndex) => (
@@ -272,7 +277,7 @@ export function Speakers() {
 			  )}
 			>
 			</div>
-			
+
 			<div
 			  className="absolute inset-0 bg-indigo-50"	  
 			>
@@ -292,14 +297,12 @@ export function Speakers() {
 		      <p className="mt-1 text-base tracking-tight text-slate-500">
 			{speaker.role}
 		      </p>
-		      
+
 		    </div>
 		  ))}
 		</TabPanel>
 	      ))}
 	    </TabPanels>
-	    
-	  </div>
 	</TabGroup>
       </Container>
     </section>
