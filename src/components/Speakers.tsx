@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useId, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
@@ -144,7 +144,6 @@ const days = [
 // ? Include ImageClipPaths function here ? 
 
 export function Speakers() {
-  let id = useId()
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
   
@@ -257,52 +256,52 @@ export function Speakers() {
 
 	  {/* TAB PANELS */}
 	  <TabPanels className="lg:col-span-3">
-	      {days.map((day) => (
-		<TabPanel
-		  key={day.dateTime}
-		  className="grid grid-cols-1 gap-x-8 gap-y-10 data-selected:not-data-focus:outline-hidden sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3"
-		  unmount={false}
-		>
-		  {day.speakers.map((speaker, speakerIndex) => (
-		    <div key={speakerIndex}>
-		      <div className="group relative h-70 transform overflow-hidden rounded-4xl">
-			<div
-			  className={clsx(
-			    'absolute top-0 right-4 bottom-6 left-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
-			    [
-			      'border-blue-300',
-			      'border-indigo-300',
-			      'border-sky-300',
-			    ][speakerIndex % 3],
-			  )}
-			>
-			</div>
-
-			<div
-			  className="absolute inset-0 bg-indigo-50"	  
-			>
-			  <Image
-			    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-			    src={speaker.image}
-			    alt=""
-			    priority
-			    sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-			  />
-			</div>
-
+	    {days.map((day) => (
+	      <TabPanel
+		key={day.dateTime}
+		className="grid grid-cols-1 gap-x-8 gap-y-10 data-selected:not-data-focus:outline-hidden sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3"
+		unmount={false}
+	      >
+		{day.speakers.map((speaker, speakerIndex) => (
+		  <div key={speakerIndex}>
+		    <div className="group relative h-70 transform overflow-hidden rounded-4xl">
+		      <div
+			className={clsx(
+			  'absolute top-0 right-4 bottom-6 left-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
+			  [
+			    'border-blue-300',
+			    'border-indigo-300',
+			    'border-sky-300',
+			  ][speakerIndex % 3],
+			)}
+		      >
 		      </div>
-		      <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
-			{speaker.name}
-		      </h3>
-		      <p className="mt-1 text-base tracking-tight text-slate-500">
-			{speaker.role}
-		      </p>
+
+		      <div
+			className="absolute inset-0 bg-indigo-50"	  
+		      >
+			<Image
+			  className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+			  src={speaker.image}
+			  alt=""
+			  priority
+			  sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+			/>
+		      </div>
 
 		    </div>
-		  ))}
-		</TabPanel>
-	      ))}
-	    </TabPanels>
+		    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+		      {speaker.name}
+		    </h3>
+		    <p className="mt-1 text-base tracking-tight text-slate-500">
+		      {speaker.role}
+		    </p>
+
+		  </div>
+		))}
+	      </TabPanel>
+	    ))}
+	  </TabPanels>
 	</TabGroup>
       </Container>
     </section>
