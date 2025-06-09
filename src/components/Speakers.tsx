@@ -194,13 +194,13 @@ export function Speakers() {
 	  className=""
 	  vertical={tabOrientation === 'vertical'}
 	>
-	  <div className="relative">
+	  <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
 
 	    {/* DECORATIVE LINE */}
 	    <div className="absolute top-2 bottom-0 left-0.5 hidden w-px bg-slate-200 lg:block" />
 	    
 	    {/* TAB LIST*/}
-	    <TabList className="grid">
+	    <TabList className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 px-4 whitespace-nowrap sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
 	      
 	      {({ selectedIndex }) => (
 		<>
