@@ -265,7 +265,7 @@ export function Speakers() {
 		    <div className="group relative h-70 transform overflow-hidden rounded-4xl">
 		      <div
 			className={clsx(
-			  'absolute top-0 right-4 bottom-6 left-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
+			  'absolute inset-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
 			  [
 			    'border-blue-300',
 			    'border-indigo-300',
@@ -278,9 +278,9 @@ export function Speakers() {
 		       <Image
 			 className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
 			 src={speaker.image}
-			 alt=""
-			 priority
-			 sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+			 alt={speaker.name}
+			 width={1120}
+			 height={560}
 		       />
 
 
