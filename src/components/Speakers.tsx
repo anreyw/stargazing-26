@@ -197,7 +197,7 @@ export function Speakers() {
 	  <div className="relative">
 
 	    {/* DECORATIVE LINE */}
-	    <div className="" />
+	    <div className="absolute top-2 bottom-0 left-0.5 hidden w-px bg-slate-200 lg:block" />
 	    
 	    {/* TAB LIST*/}
 	    <TabList className="grid">
