@@ -210,7 +210,7 @@ export function Speakers() {
 
 		      <DiamondIcon
 			className={clsx(
-			  'absolute top-2.25 left-[-0.5px] hidden h-1.5 w-1.5 -verflow-visible lg:block',
+			  'absolute top-2.25 left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
 			  dayIndex === selectedIndex
 			    ? 'fill-blue-600 stroke-blue-600'
 			    : 'fill-transparent stroke-slate-400',
