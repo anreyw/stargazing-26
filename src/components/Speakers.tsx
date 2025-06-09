@@ -236,7 +236,7 @@ export function Speakers() {
 
 			<time
 			  dateTime={day.dateTime}
-			  className="mt-1.5 text-2xl font-semibold tracking-tight text-blue-900"
+			  className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
 			>
 			  {day.date}
 			</time>
