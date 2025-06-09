@@ -190,8 +190,9 @@ export function Speakers() {
 	    className="mt-4 font-display text-2xl tracking-tight text-blue-900"
 	  >Learn from the experts on the cutting-edge of deception at the most sinister companies.</p>
 	</div>
+	
 	<TabGroup
-	  className=""
+	  className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
 	  vertical={tabOrientation === 'vertical'}
 	>
 	  <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
@@ -250,9 +251,55 @@ export function Speakers() {
 	    </TabList>
 
 	    {/* TAB PANELS */}
-	    <TabPanels>
-	      
+	    <TabPanels className="">
+	      {days.map((day) => (
+		<TabPanel
+		  key={day.dateTime}
+		  className=""
+		  unmount={false}
+		>
+		  {day.speakers.map((speaker, speakerIndex) => (
+		    <div key={speakerIndex}>
+		      <div className="group relative h-70 transform overflow-hidden rounded-4xl">
+			<div
+			  className={clsx(
+			    'absolute top-0 right-4 bottom-6 left-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
+			    [
+			      'border-blue-300',
+			      'border-indigo-300',
+			      'border-sky-300',
+			    ][speakerIndex % 3],
+			  )}
+			>
+			</div>
+			
+			<div
+			  className="absolute inset-0 bg-indigo-50"
+			  style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
+			>
+			  <Image
+			    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+			    src={speaker.image}
+			    alt=""
+			    priority
+			    sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+			  />
+			</div>
+
+		      </div>
+		      <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+			{speaker.name}
+		      </h3>
+		      <p className="mt-1 text-base tracking-tight text-slate-500">
+			{speaker.role}
+		      </p>
+		      
+		    </div>
+		  ))}
+		</TabPanel>
+	      ))}
 	    </TabPanels>
+	    
 	  </div>
 	</TabGroup>
       </Container>
