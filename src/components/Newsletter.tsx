@@ -46,7 +46,10 @@ export function Newsletter() {
 		Stay up to date
 	      </p>
 
-	      <p></p>
+	      <p className="mt-4 text-lg tracking-tight text-blue-900">
+		Get updates on all of our events and be the first to get
+                notified when tickets go on sale.
+	      </p>
 	      
 	    </div>
 
