@@ -1,4 +1,6 @@
+import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+
 
 export function Layout({
   children,
@@ -11,6 +13,7 @@ export function Layout({
     <>
       <Header />
       <main className="flex-auto">{children}</main>
+      {showFooter && <Footer />}
     </>
   )
 }
