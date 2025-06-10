@@ -37,7 +37,8 @@ export function Newsletter() {
 	    unoptimized
 	  />
 
-	  <div>
+	  {/* NEWSLETTER CONTENT */}
+	  <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
 
 	    <div>
 
