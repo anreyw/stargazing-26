@@ -42,7 +42,9 @@ export function Newsletter() {
 
 	    <div>
 
-	      <p></p>
+	      <p className="font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
+		Stay up to date
+	      </p>
 
 	      <p></p>
 	      
