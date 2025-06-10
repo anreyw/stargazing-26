@@ -5,6 +5,7 @@ export function Footer() {
   return (
     <footer className="flex-none py-16">
       <Container className="flex flex-col items-center justify-between md:flex-row">
+	<Logo className="h-12 w-auto" />
 	<p>Footer</p>
       </Container>
     </footer>
