@@ -3,7 +3,7 @@ import { Logo } from '@/components/Logo'
 
 export function Footer() {
   return (
-    <footer>
+    <footer className="flex-none py-16">
       Footer
     </footer>
   )
