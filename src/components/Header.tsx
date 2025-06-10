@@ -27,7 +27,7 @@ export function Header() {
 
 	{/* CTA Button */}
 	<div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-	  <Button href="/">Register</Button>
+	  <Button href="/">Register Now</Button>
 	</div>
       </Container>
     </header>
