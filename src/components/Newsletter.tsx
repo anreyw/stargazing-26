@@ -55,7 +55,9 @@ export function Newsletter() {
 
 	    <form>
 
-	      <h3></h3>
+	      <h3 className="text-lg font-semibold tracking-tight text-blue-900">
+		Sign up to our newsletter <span aria-hidden="true">&darr;</span>
+	      </h3>
 
 	      <div>
 
