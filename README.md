@@ -22,10 +22,6 @@ At this stage, I am not ready for contributors, but will hope to be in the futur
 - MVP Launch Target: 2025-07-15
 - Final Launch: 2025-08-31
 
-## 📄 License
-
-TBD
-
 ---
 
 Maintained by Anrey Wang, Webmaster for Greater Los Angeles Area Mensa.
