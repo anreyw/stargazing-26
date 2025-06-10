@@ -12,7 +12,7 @@
 - [ ] Volunteer/Contact Info
 - [ ] FAQs
 
-## Page Architecture
+## Site Architecture
 
 - Homepage/Landing Page
   - Header
