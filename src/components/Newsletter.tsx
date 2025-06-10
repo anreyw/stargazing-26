@@ -28,10 +28,43 @@ export function Newsletter() {
 
 	<div className="relative -mx-4 overflow-hidden bg-indigo-50 px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
 
-	  <Image />
+	  <Image
+	    className="absolute top-0 left-1/2 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%]"
+	    src={backgroundImage}
+	    alt=""
+	    width={919}
+	    height={1351}
+	    unoptimized
+	  />
 
-	  <div> 
-	    
+	  <div>
+
+	    <div>
+
+	      <p></p>
+
+	      <p></p>
+	      
+	    </div>
+
+	    <form>
+
+	      <h3></h3>
+
+	      <div>
+
+		<input
+		  
+		/>
+
+		<Button type="submit">
+		  
+		</Button>
+		
+	      </div>
+	      
+	    </form>
+		 
 	  </div>
 	  
 	</div>
