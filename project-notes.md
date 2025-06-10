@@ -12,3 +12,14 @@
 - [ ] Volunteer/Contact Info
 - [ ] FAQs
 
+## Page Architecture
+
+- Homepage/Landing Page
+  - Header
+  - Hero
+  - CTA
+  - Footer
+- Schedule
+- Registration
+- Venue
+- Contact/Volunteer Info
