@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <p>Home</p>
+    <p>This is a test of the Geist font on the homepage.</p>
   )
 }
