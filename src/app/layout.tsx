@@ -19,6 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className}>
       <body className="h-screen flex items-center justify-center text-3xl">
+	<header>
+	  <h1>This is a root header.</h1>
+	</header>
 	{children}
       </body>
     </html>
