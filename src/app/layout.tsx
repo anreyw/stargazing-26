@@ -1,3 +1,5 @@
+import Header from '@/components/Header'
+
 import { type Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 
@@ -18,7 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body className="h-screen flex items-center justify-center text-3xl">
+      <body className="">
+	<Header />
 	{children}
       </body>
     </html>
