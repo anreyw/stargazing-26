@@ -107,7 +107,7 @@ export default function Example() {
           </Popover>
 
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Features
+            Events
           </a>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Marketplace
@@ -168,7 +168,7 @@ export default function Example() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Events
                 </a>
                 <a
                   href="#"
