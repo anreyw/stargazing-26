@@ -44,7 +44,7 @@ export default function Header() {
   return (
     <header>
       <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-	{/*HOME ANCHOR*/}
+	{/*HOME ANCHOR LOGO*/}
 	<div className="flex">
 	  <a href="#">
 	    <span className="sr-only">Greater Los Angeles Area Mensa</span>
@@ -55,6 +55,8 @@ export default function Header() {
 	    />
 	  </a>
 	</div>
+
+	{/*MOBILE MENU HAMBURGER ICON*/}
 	<div className="flex lg:hidden">
 	  <button
 	    type="button"
@@ -65,8 +67,16 @@ export default function Header() {
 	    <Bars3Icon aria-hidden="true" className="size-6" />
 	  </button>
 	</div>
+	
+	{/*DESKTOP MENU*/}
 	<PopoverGroup className="hidden lg:flex lg:gap-x-12">
+	  <Popover className="">
+	    <PopoverButton>
+	      Product
+	    </PopoverButton>
+	  </Popover>
 	</PopoverGroup>
+	
       </nav>
     </header>
   )
