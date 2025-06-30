@@ -134,9 +134,22 @@ export default function Header() {
             href="#"
             className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Sign up
+            Register
           </a>
 	</div>
+
+	{/*MOBILE MENU HAMBURGER ICON*/}
+	<div className="flex lg:hidden">
+	  <button
+	    type="button"
+	    onClick={() => setMobileMenuOpen(true)}
+	    className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+	  >
+	    <span className="sr-only">Open main menu</span>
+	    <Bars3Icon aria-hidden="true" className="size-6" />
+	  </button>
+	</div>
+
       </nav>
       
       {/*MOBILE MENU*/}
