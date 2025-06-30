@@ -12,6 +12,15 @@ import {
   PopoverGroup,
   PopoverPanel,
 } from '@headlessui/react'
+import {
+  ArrowPathIcon,
+  Bars3Icon,
+  ChartPieIcon,
+  CursorArrowRaysIcon,
+  FingerPrintIcon,
+  SquaresPlusIcon,
+  XMarkIcon,
+} from '@heroicons/react/24/outline'
 
 export default function Header() {
   return (
