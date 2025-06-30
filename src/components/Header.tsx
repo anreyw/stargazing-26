@@ -46,7 +46,14 @@ export default function Header() {
       <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
 	{/*HOME ANCHOR*/}
 	<div className="flex">
-	  Logo
+	  <a href="#">
+	    <span className="sr-only">Greater Los Angeles Area Mensa</span>
+	    <Image
+	      alt="Greater Los Angeles Area Mensa logo"
+	      src={GlaamLogo}
+	      className="h-8 w-auto"
+	    />
+	  </a>
 	</div>
 	<div>
 	  Menu
