@@ -37,6 +37,8 @@ const callsToAction = [
 ]
 
 export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  
   return (
     <div></div>
   )
