@@ -71,7 +71,7 @@ export default function Header() {
 	{/*DESKTOP MENU*/}
 	<PopoverGroup className="hidden lg:flex lg:gap-x-12">
 	  <Popover className="">
-	    <PopoverButton>
+	    <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
 	      Product
 	      <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
 	    </PopoverButton>
