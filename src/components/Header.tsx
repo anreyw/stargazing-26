@@ -43,7 +43,7 @@ export default function Header() {
   
   return (
     <header>
-      <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+      <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
 	{/*HOME ANCHOR LOGO*/}
 	<div className="flex lg:flex-1">
 	  <a href="#">
