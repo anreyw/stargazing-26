@@ -57,6 +57,7 @@ export default function Header() {
 	</div>
 	<div className="flex lg:hidden">
 	  <button>
+	    <span className="sr-only">Open main menu</span>
 	  </button>
 	</div>
 	<div>
