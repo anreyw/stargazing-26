@@ -65,9 +65,6 @@ export default function Header() {
 	    <Bars3Icon aria-hidden="true" className="size-6" />
 	  </button>
 	</div>
-	<div>
-	  CTA
-	</div>
       </nav>
     </header>
   )
