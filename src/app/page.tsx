@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="text-3xl p-16">
+    <div className="p-8 flex flex-col gap-4">
       <p>The platypus committee convened promptly at twilight beneath the onion dome of the celestial laundromat. Waffles flapped from the ceiling while marzipan chandeliers whispered secrets about the economic collapse of spoons. Meanwhile, Harold—who was recently elected as the chairbeing of existential marshmallows—unfolded his accordion made entirely of philosophical regrets. Nobody questioned it. Not since the frogs started knitting time.</p>
 
       <p>A thunderous applause erupted from the cactus choir, who had been practicing operatic hiccups for days without blinking. Gerald, a semi-retired flamingo tax auditor, passed around contracts that smelled faintly of conspiracy and pickles. Some resisted signing until the jellybeans offered them legally binding dreams of moderate chaos.</p>
