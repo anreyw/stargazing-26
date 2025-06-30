@@ -126,11 +126,17 @@ export default function Header() {
         </PopoverGroup>
 
 	{/*LOG IN BUTTON*/}
-	<div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
+	<div className="flex flex-1 items-center justify-end gap-x-6">
+          <a href="#" className="hidden text-sm/6 font-semibold text-gray-900 lg:block">
+            Log in
           </a>
-        </div>	
+          <a
+            href="#"
+            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            Sign up
+          </a>
+	</div>
       </nav>
       
       {/*MOBILE MENU*/}
@@ -194,15 +200,7 @@ export default function Header() {
                 >
                   Company
                 </a>
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
-              </div>
+              </div>              
             </div>
           </div>
         </DialogPanel>
