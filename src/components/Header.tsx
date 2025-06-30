@@ -44,7 +44,13 @@ export default function Header() {
       <nav aria-label="global">
 	{/*HOME ANCHOR*/}
 	<div>
-	  <h1>Navigation</h1>
+	  Logo
+	</div>
+	<div>
+	  Menu
+	</div>
+	<div>
+	  CTA
 	</div>
       </nav>
     </header>
