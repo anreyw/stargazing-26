@@ -73,6 +73,7 @@ export default function Header() {
 	  <Popover className="">
 	    <PopoverButton>
 	      Product
+	      <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
 	    </PopoverButton>
 	  </Popover>
 	</PopoverGroup>
