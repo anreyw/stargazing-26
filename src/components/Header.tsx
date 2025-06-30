@@ -42,6 +42,9 @@ export default function Header() {
   return (
     <header>
       <nav>
+	{/*HOME ANCHOR*/}
+	<div>
+	</div>
       </nav>
     </header>
   )
