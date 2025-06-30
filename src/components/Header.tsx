@@ -55,18 +55,6 @@ export default function Header() {
 	    />
 	  </a>
 	</div>
-
-	{/*MOBILE MENU HAMBURGER ICON*/}
-	<div className="flex lg:hidden">
-	  <button
-	    type="button"
-	    onClick={() => setMobileMenuOpen(true)}
-	    className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-	  >
-	    <span className="sr-only">Open main menu</span>
-	    <Bars3Icon aria-hidden="true" className="size-6" />
-	  </button>
-	</div>
 	
 	{/*DESKTOP POPOVER MENU*/}
 	<PopoverGroup className="hidden lg:flex lg:gap-x-12">
@@ -125,7 +113,7 @@ export default function Header() {
           </a>
         </PopoverGroup>
 
-	{/*LOG IN BUTTON*/}
+	{/*CALL TO ACTION BUTTON*/}
 	<div className="flex flex-1 items-center justify-end gap-x-6">
           <a href="#" className="hidden text-sm/6 font-semibold text-gray-900 lg:block">
             Log in
