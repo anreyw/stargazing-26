@@ -55,7 +55,7 @@ export default function Header() {
 	    />
 	  </a>
 	</div>
-	<div>
+	<div className="flex lg:hidden">
 	  Menu
 	</div>
 	<div>
