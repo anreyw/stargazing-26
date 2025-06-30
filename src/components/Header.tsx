@@ -41,7 +41,7 @@ export default function Header() {
   
   return (
     <header>
-      <nav>
+      <nav aria-label="global">
 	{/*HOME ANCHOR*/}
 	<div>
 	</div>
