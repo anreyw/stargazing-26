@@ -22,11 +22,11 @@
 		"name": "next"
 	    }
 	],
-	"baseUrl": "src/",
+	"baseUrl": "src",
 	"paths": {
-	    "@/styles/*": ["/styles/*"],
-	    "@/components/*": ["/components/*"],
-	    "@/images/*": ["/images/*"]
+	    "@/styles/*": ["styles/*"],
+	    "@/components/*": ["components/*"],
+	    "@/images/*": ["images/*"]
 	}
     },
     "include": [
