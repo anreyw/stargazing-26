@@ -144,11 +144,11 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
-              />
+	      <Image
+		alt="Greater Los Angeles Area Mensa logo"
+		src={GlaamLogo}
+		className="h-8 w-auto"
+	      />
             </a>
             <button
               type="button"
