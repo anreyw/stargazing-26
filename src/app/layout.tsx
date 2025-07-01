@@ -21,8 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className}>
       <body className="">
-	<Header />
-	{children}
+	{/* Wrapper div fixes a bug with HeadlessUI's popover, where
+	clicks outside of the header element will not properly close
+	the popover panel.  See
+	https://github.com/tailwindlabs/headlessui/issues/2752 */}
+	<div>
+	  <Header />
+	  {children}
+	</div>
       </body>
     </html>
   )
