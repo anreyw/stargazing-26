@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 import { type Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
@@ -28,6 +29,7 @@ export default function RootLayout({
 	<div>
 	  <Header />
 	  {children}
+	  <Footer />
 	</div>
       </body>
     </html>
