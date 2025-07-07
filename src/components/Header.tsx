@@ -1,5 +1,6 @@
 'use client' // Header requires state
 
+import CallToAction from '@/components/CallToAction'
 import Image from 'next/image'
 import GlaamLogo from '@/images/glaam-logo.png'
 import { useState } from 'react'
