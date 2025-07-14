@@ -141,17 +141,11 @@ export default function Header() {
                     Schedule
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
-                  <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products, ...callsToAction].map((item) => (
-                      <DisclosureButton
-                        key={item.name}
-                        as="a"
-                        href={item.href}
-                        className="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-                      >
-                        {item.name}
-                      </DisclosureButton>
-                    ))}
+                  <DisclosurePanel className="mt-2 space-y-2 p-4">
+                    <p className="pb-4 text-lg"><em>Coming Soon!</em></p>
+		    <p>
+		     Check out previous schedules at the main <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">GLAAM Regional Gathering web page</a>.
+		    </p>
                   </DisclosurePanel>
                 </Disclosure>
                 <a
