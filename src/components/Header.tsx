@@ -48,7 +48,7 @@ export default function Header() {
 	    <Image
 	      alt="Greater Los Angeles Area Mensa logo"
 	      src={GlaamLogo}
-	      className="h-12 w-auto"
+	      className="h-10 w-auto"
 	    />
 	  </Link>
 	</div>
@@ -107,7 +107,7 @@ export default function Header() {
 	      <Image
 		alt="Greater Los Angeles Area Mensa logo"
 		src={GlaamLogo}
-		className="h-12 w-auto"
+		className="h-10 w-auto"
 	      />
             </Link>
 
