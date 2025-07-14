@@ -73,7 +73,7 @@ export default function Header() {
 	{/*DESKTOP POPOVER MENU*/}
 	<PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
+            <PopoverButton className="flex items-center gap-x-1 text-base/6 font-semibold text-gray-900">
               Schedule
               <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
             </PopoverButton>
@@ -116,13 +116,13 @@ export default function Header() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-base/6 font-semibold text-gray-900">
             Venue
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-base/6 font-semibold text-gray-900">
             FAQ
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-base/6 font-semibold text-gray-900">
             About
           </a>
         </PopoverGroup>
