@@ -60,7 +60,7 @@ export default function Header() {
 
 	{/*HOME ANCHOR LOGO*/}
 	<div className="flex lg:flex-1">
-	  <a href="#">
+	  <a href="/">
 	    <span className="sr-only">Greater Los Angeles Area Mensa</span>
 	    <Image
 	      alt="Greater Los Angeles Area Mensa logo"
@@ -147,7 +147,7 @@ export default function Header() {
             </button>
 
 	    {/* HOME ANCHOR LOGO */}
-	    <a href="#" className="-m-1.5 p-1.5">
+	    <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Greater Los Angeles Area Mensa</span>
 	      <Image
 		alt="Greater Los Angeles Area Mensa logo"
