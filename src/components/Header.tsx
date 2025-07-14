@@ -2,6 +2,7 @@
 
 import CallToAction from '@/components/CallToAction'
 import Image from 'next/image'
+import Link from 'next/link'
 import GlaamLogo from '@/images/glaam-logo.png'
 import { useState } from 'react'
 import {
@@ -60,14 +61,14 @@ export default function Header() {
 
 	{/*HOME ANCHOR LOGO*/}
 	<div className="flex lg:flex-1">
-	  <a href="/">
+	  <Link href="/">
 	    <span className="sr-only">Greater Los Angeles Area Mensa</span>
 	    <Image
 	      alt="Greater Los Angeles Area Mensa logo"
 	      src={GlaamLogo}
 	      className="h-12 w-auto"
 	    />
-	  </a>
+	  </Link>
 	</div>
 	
 	{/*DESKTOP POPOVER MENU*/}
@@ -119,14 +120,14 @@ export default function Header() {
             </button>
 
 	    {/* HOME ANCHOR LOGO */}
-	    <a href="/" className="-m-1.5 p-1.5">
+	    <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Greater Los Angeles Area Mensa</span>
 	      <Image
 		alt="Greater Los Angeles Area Mensa logo"
 		src={GlaamLogo}
 		className="h-12 w-auto"
 	      />
-            </a>
+            </Link>
 
 	    {/*CALL TO ACTION BUTTON*/}
 	    <CallToAction />
