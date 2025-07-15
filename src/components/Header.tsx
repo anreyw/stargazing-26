@@ -68,7 +68,7 @@ export default function Header() {
               <div className="p-12">
                 <p className="text-center pb-4 text-lg"><em>Coming Soon!</em></p>
 		<p>
-		     Check out previous schedules at the main <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">GLAAM Regional Gathering web page</a>.
+		     Explore schedules from previous gatherings at the main <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">GLAAM Regional Gathering web page</a>.
 		</p>
               </div>
             </PopoverPanel>
@@ -126,7 +126,7 @@ export default function Header() {
                   <DisclosurePanel className="mt-2 space-y-2 p-4">
                     <p className="pb-4 text-lg"><em>Coming Soon!</em></p>
 		    <p>
-		     Check out previous schedules at the main <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">GLAAM Regional Gathering web page</a>.
+			 Explore schedules from previous gatherings at the main <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">GLAAM Regional Gathering web page</a>.
 		    </p>
                   </DisclosurePanel>
                 </Disclosure>
