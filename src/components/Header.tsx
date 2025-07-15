@@ -3,6 +3,7 @@
 import CallToAction from '@/components/CallToAction'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import GlaamLogo from '@/images/glaam-logo.png'
 import { useState } from 'react'
 import {
