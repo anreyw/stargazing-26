@@ -25,6 +25,8 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const showCTA = pathname !== '/register'
   
   return (
     <header>
@@ -84,7 +86,7 @@ export default function Header() {
         </PopoverGroup>
 
 	{/*CALL TO ACTION BUTTON*/}
-	<CallToAction />	
+	{showCTA && <CallToAction />}
 
       </nav>
       
@@ -113,7 +115,7 @@ export default function Header() {
             </Link>
 
 	    {/*CALL TO ACTION BUTTON*/}
-	    <CallToAction />
+	    {showCTA && <CallToAction />}
             
           </div>
           <div className="mt-6 flow-root">
