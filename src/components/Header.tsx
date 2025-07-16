@@ -81,9 +81,9 @@ export default function Header() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-base/6 font-semibold text-gray-900">
+          <Link href="/venue" className="text-base/6 font-semibold text-gray-900">
             Venue
-          </a>          
+          </Link>          
         </PopoverGroup>
 
 	{/*CALL TO ACTION BUTTON*/}
@@ -140,12 +140,12 @@ export default function Header() {
 		    </p>
                   </DisclosurePanel>
                 </Disclosure>
-                <a
-                  href="#"
+                <Link
+                  href="/venue"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Venue
-                </a>
+                </Link>
               </div>              
             </div>
           </div>
