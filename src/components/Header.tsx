@@ -30,7 +30,7 @@ export default function Header() {
   
   return (
     <header>
-      <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-items-start gap-x-6 p-6 lg:px-8">
+      <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-start gap-x-6 p-6 lg:px-8">
 
 	{/*MOBILE MENU HAMBURGER ICON*/}
 	<div className="flex lg:hidden">
@@ -94,7 +94,7 @@ export default function Header() {
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 left-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-items-start gap-x-6">
+          <div className="flex items-center justify-start gap-x-6">
 	    <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
