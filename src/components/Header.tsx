@@ -58,7 +58,11 @@ export default function Header() {
 	
 	{/*DESKTOP POPOVER MENU*/}
 	<PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Popover className="relative">
+	  <Link href="/" className="text-base/6 font-semibold text-gray-900">
+            Home
+          </Link>
+
+	  <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-base/6 font-semibold text-gray-900">
               Schedule
               <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
@@ -69,9 +73,9 @@ export default function Header() {
               className="absolute top-full -left-8 z-50 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
             >
               <div className="p-12">
-                <p className="text-center pb-4 text-lg"><em>Coming Soon!</em></p>
+                <p className="text-center pb-4 text-lg"><em>2026 Schedule Coming Soon!</em></p>
 		<p>
-		     Explore schedules from previous gatherings at the main <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">GLAAM Regional Gathering web page</a>.
+		     In the meanwhile, please explore schedules from previous years on our <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">history page</a>.
 		</p>
               </div>
             </PopoverPanel>
@@ -121,15 +125,21 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3">
+		<Link
+		  href="/"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+		>
+		   Home
+		</Link>
+		<Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     Schedule
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2 p-4">
-                    <p className="pb-4 text-lg"><em>Coming Soon!</em></p>
+                    <p className="pb-4 text-lg"><em>2026 Schedule Coming Soon!</em></p>
 		    <p>
-			 Explore schedules from previous gatherings at the main <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">GLAAM Regional Gathering web page</a>.
+			 In the meanwhile, please explore schedules from previous years on our <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">history page</a>.
 		    </p>
                   </DisclosurePanel>
                 </Disclosure>
