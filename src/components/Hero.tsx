@@ -17,15 +17,22 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl px-6 py-32 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <h1 className="max-w-2xl text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto">
-																	       StaRGazing 2026
+																	       Sta<span className="text-violet-600">RG</span>azing 2026
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 space-y-4">
               <p className="text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-											  Join other bright minds at the annual <span className="font-bold">Greater Los Angeles Area Mensa Regional Gathering</span> on our traditional Presidents’ Day weekend 2026.
+											  Join other bright minds at the annual <span className="font-bold">Greater Los Angeles Area Mensa <span className="text-violet-600">Regional Gathering</span></span> on our traditional Presidents’ Day weekend.
               </p>		    
 	      <p className="text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-		Engage with thought-provoking speakers, thrilling games, top-tier entertainment, and a dedicated Kids Track—all with meals included.
+											  Engage with:
 	      </p>
+	      <ul role="list" className="text-lg font-medium text-pretty text-gray-600 sm:text-xl/8 pl-8 list-disc marker:text-amber-600 space-y-2">
+		  <li>thought-provoking speakers</li>
+		  <li>thrilling games</li>
+		  <li>top-tier entertainment</li>
+		  <li>a dedicated Kids Track</li>
+		  <li>...all with meals included!</li>
+		</ul>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="#"
