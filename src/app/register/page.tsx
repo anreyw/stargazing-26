@@ -23,7 +23,7 @@ export default function Registration() {
               </a>
             </div>
           </div>
-          <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+          {/*<div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
             <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
               <img
                 alt=""
@@ -54,7 +54,7 @@ export default function Registration() {
                 />
               </div>
             </div>
-          </div>
+            </div>*/}
         </div>
       </div>
     </div>
