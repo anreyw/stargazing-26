@@ -57,7 +57,7 @@ export default function Header() {
 	</div>
 	
 	{/*DESKTOP POPOVER MENU*/}
-	<PopoverGroup className="hidden lg:flex lg:gap-x-12">
+	<PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:px-6">
 	  <Link href="/" className="text-base/6 font-semibold text-gray-900">
             Home
           </Link>
