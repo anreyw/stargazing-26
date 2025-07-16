@@ -106,7 +106,7 @@ export default function Header() {
             </button>
 
 	    {/* HOME ANCHOR LOGO */}
-	    <Link href="/" className="-m-1.5 p-1.5">
+	    <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
               <span className="sr-only">Greater Los Angeles Area Mensa</span>
 	      <Image
 		alt="Greater Los Angeles Area Mensa logo"
@@ -125,6 +125,7 @@ export default function Header() {
 		<Link
 		  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+		  onClick={() => setMobileMenuOpen(false)}
 		>
 		   Home
 		</Link>
@@ -143,6 +144,7 @@ export default function Header() {
                 <Link
                   href="/venue"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+		  onClick={() => setMobileMenuOpen(false)}
                 >
                   Venue
                 </Link>
