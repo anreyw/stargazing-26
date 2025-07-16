@@ -83,10 +83,7 @@ export default function Header() {
 
           <a href="#" className="text-base/6 font-semibold text-gray-900">
             Venue
-          </a>
-          <a href="#" className="text-base/6 font-semibold text-gray-900">
-            About
-          </a>
+          </a>          
         </PopoverGroup>
 
 	{/*CALL TO ACTION BUTTON*/}
@@ -148,12 +145,6 @@ export default function Header() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Venue
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  About
                 </a>
               </div>              
             </div>
