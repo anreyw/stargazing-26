@@ -5,8 +5,10 @@ export default function Venue() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-        <div className="max-w-4xl">
-          <p className="text-base/7 font-semibold text-indigo-600">About us</p>
+
+	{/* VENUE PAGE HEADER */}
+	<div className="max-w-4xl">
+          <p className="text-base/7 font-semibold text-amber-800">Venue</p>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
             On a mission to empower remote teams
           </h1>
@@ -15,6 +17,8 @@ export default function Venue() {
             aliquam. Quisque id at vitae feugiat egestas.
           </p>
         </div>
+
+	
         <section className="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
           <div className="lg:pr-8">
             <h2 className="text-2xl font-semibold tracking-tight text-pretty text-gray-900">Our mission</h2>
