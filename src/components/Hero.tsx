@@ -1,6 +1,7 @@
 import CallToAction from '@/components/CallToAction'
 import Image from 'next/image'
 import HeroImage from '@/images/stargazing-hero-image.jpg'
+import HandsRaisedImage from '@/images/hands-raised.jpg'
 
 export default function Hero() {
   return (
