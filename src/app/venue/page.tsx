@@ -10,7 +10,7 @@ export default function Venue() {
 	<div className="max-w-4xl">
           <p className="text-base/7 font-semibold text-amber-800">Venue</p>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-            On a mission to empower remote teams
+            The beautiful Golden Sails Hotel
           </h1>
           <p className="mt-6 text-xl/8 text-balance text-gray-700">
             Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
