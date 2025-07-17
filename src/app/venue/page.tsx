@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import GoldenSailsBG from '@/images/golden-sails-background.jpeg'
+import GoldenSailsOverview from '@/images/golden-sails-overview.jpg'
 
 export default function Venue() {
   return (
