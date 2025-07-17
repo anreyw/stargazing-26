@@ -30,61 +30,63 @@ export default function Header() {
   
   return (
     <header>
-      <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-start gap-x-6 p-6 lg:px-8">
+      <nav aria-label="global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
 
-	{/*MOBILE MENU HAMBURGER ICON*/}
-	<div className="flex lg:hidden">
-	  <button
-	    type="button"
-	    onClick={() => setMobileMenuOpen(true)}
-	    className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-	  >
-	    <span className="sr-only">Open main menu</span>
-	    <Bars3Icon aria-hidden="true" className="size-6" />
-	  </button>
-	</div>
+	<div className="flex items-center gap-x-6">
+	  {/*MOBILE MENU HAMBURGER ICON*/}
+	  <div className="flex lg:hidden">
+	    <button
+	      type="button"
+	      onClick={() => setMobileMenuOpen(true)}
+	      className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+	    >
+	      <span className="sr-only">Open main menu</span>
+	      <Bars3Icon aria-hidden="true" className="size-6" />
+	    </button>
+	  </div>
 
-	{/*HOME ANCHOR LOGO*/}
-	<div className="flex">
-	  <Link href="/">
-	    <span className="sr-only">Greater Los Angeles Area Mensa</span>
-	    <Image
-	      alt="Greater Los Angeles Area Mensa logo"
-	      src={GlaamLogo}
-	      className="h-10 w-auto"
-	    />
-	  </Link>
-	</div>
+	  {/*HOME ANCHOR LOGO*/}
+	  <div className="flex">
+	    <Link href="/">
+	      <span className="sr-only">Greater Los Angeles Area Mensa</span>
+	      <Image
+		alt="Greater Los Angeles Area Mensa logo"
+		src={GlaamLogo}
+		className="h-10 w-auto"
+	      />
+	    </Link>
+	  </div>
 	
-	{/*DESKTOP POPOVER MENU*/}
-	<PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:px-6">
-	  <Link href="/" className="text-base/6 font-semibold text-gray-900">
-            Home
-          </Link>
+	  {/*DESKTOP POPOVER MENU*/}
+	  <PopoverGroup className="hidden lg:flex lg:gap-x-12 px-6">
+	    <Link href="/" className="text-base/6 font-semibold text-gray-900">
+										 Home
+            </Link>
 
-	  <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-base/6 font-semibold text-gray-900">
-              Schedule
-              <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
-            </PopoverButton>
+	    <Popover className="relative">
+              <PopoverButton className="flex items-center gap-x-1 text-base/6 font-semibold text-gray-900">
+													     Schedule
+		<ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
+              </PopoverButton>
 
-            <PopoverPanel
-              transition
-              className="absolute top-full -left-8 z-50 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
-            >
-              <div className="p-12">
-                <p className="text-center pb-4 text-lg"><em>2026 Schedule Coming Soon!</em></p>
-		<p>
-		     In the meanwhile, please explore schedules from previous years on our <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">history page</a>.
-		</p>
-              </div>
-            </PopoverPanel>
-          </Popover>
+              <PopoverPanel
+		transition
+		className="absolute top-full -left-8 z-50 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
+              >
+		<div className="p-12">
+                  <p className="text-center pb-4 text-lg"><em>2026 Schedule Coming Soon!</em></p>
+		  <p>
+		       In the meanwhile, please explore schedules from previous years on our <a className="underline text-blue-700"href="https://www.glaam.org/regional-gathering/">history page</a>.
+		  </p>
+		</div>
+              </PopoverPanel>
+            </Popover>
 
-          <Link href="/venue" className="text-base/6 font-semibold text-gray-900">
-            Venue
-          </Link>          
-        </PopoverGroup>
+            <Link href="/venue" className="text-base/6 font-semibold text-gray-900">
+										      Venue
+            </Link>          
+          </PopoverGroup>
+	</div>
 
 	{/*CALL TO ACTION BUTTON*/}
 	{showCTA && <CallToAction />}
@@ -95,25 +97,27 @@ export default function Header() {
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 left-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-start gap-x-6">
-	    <button
-              type="button"
-              onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
-            >
-              <span className="sr-only">Close menu</span>
-              <XMarkIcon aria-hidden="true" className="size-6" />
-            </button>
+          <div className="flex items-center justify-between gap-x-6">
+	    <div className="flex items-center gap-x-6">
+	      <button
+		type="button"
+		onClick={() => setMobileMenuOpen(false)}
+		className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              >
+		<span className="sr-only">Close menu</span>
+		<XMarkIcon aria-hidden="true" className="size-6" />
+              </button>
 
-	    {/* HOME ANCHOR LOGO */}
-	    <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
-              <span className="sr-only">Greater Los Angeles Area Mensa</span>
-	      <Image
-		alt="Greater Los Angeles Area Mensa logo"
-		src={GlaamLogo}
-		className="h-10 w-auto"
-	      />
-            </Link>
+	      {/* HOME ANCHOR LOGO */}
+	      <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
+		<span className="sr-only">Greater Los Angeles Area Mensa</span>
+		<Image
+		  alt="Greater Los Angeles Area Mensa logo"
+		  src={GlaamLogo}
+		  className="h-10 w-auto"
+		/>
+              </Link>
+	    </div>
 
 	    {/*CALL TO ACTION BUTTON*/}
 	    {showCTA && <CallToAction />}
