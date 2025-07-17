@@ -13,8 +13,7 @@ export default function Venue() {
             The beautiful Golden Sails Hotel
           </h1>
           <p className="mt-6 text-xl/8 text-balance text-gray-700">
-            Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-            aliquam. Quisque id at vitae feugiat egestas.
+								     Located on Belmont Shore in Long Beach, CA, <a href="https://www.goldensailshotel.com/" className="underline">Golden Sails Hotel</a> has been StaRGazing's home for the last several years and will again be our venue for 2026!
           </p>
         </div>
 
