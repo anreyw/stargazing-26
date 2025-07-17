@@ -13,19 +13,16 @@ export default function Venue() {
             The beautiful Golden Sails Hotel
           </h1>
           <p className="mt-6 text-xl/8 text-balance text-gray-700">
-								     Located on Belmont Shore in Long Beach, CA, <a href="https://www.goldensailshotel.com/" className="underline">Golden Sails Hotel</a> has been StaRGazing's home for the last several years and will again be our venue for 2026!
+								     Located on Belmont Shore in Long Beach, CA, <a href="https://www.goldensailshotel.com/" className="hover:underline hover:decoration-amber-800 text-amber-800 hover:bg-amber-100">Golden Sails Hotel</a> has been StaRGazing's home for the last several years and will again be our venue for 2026!
           </p>
         </div>
 
 	
         <section className="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
           <div className="lg:pr-8">
-            <h2 className="text-2xl font-semibold tracking-tight text-pretty text-gray-900">Our mission</h2>
+            <h2 className="text-2xl font-semibold tracking-tight text-pretty text-gray-900">Rooms now open for reservation!</h2>
             <p className="mt-6 text-base/7 text-gray-600">
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-              vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-              erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-              sed amet vitae sed turpis id.
+              Ask for the MENSA block, expected to be on the 4th floor, or a poolside room, while they last!   Call (562) 596-1631 ext. 504/505 during business hours,  Monday-Friday, 9am-5pm Pacific time  Or email dos@goldensailshotel.com
             </p>
             <p className="mt-8 text-base/7 text-gray-600">
               Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
