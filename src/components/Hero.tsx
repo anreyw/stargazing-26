@@ -39,9 +39,7 @@ export default function Hero() {
 	      </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <CallToAction />
-                <a href="#" className="text-sm/6 font-semibold text-gray-900">
-										Learn more <span aria-hidden="true">→</span>
-                </a>
+		<div className="text-sm lg:text-base"><em>2026 Schedule Coming Soon!</em></div>
               </div>
             </div>
             <Image
