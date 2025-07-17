@@ -88,6 +88,14 @@ export default function Header() {
           </PopoverGroup>
 	</div>
 
+	<div className="text-amber-600 font-semibold mx-auto flex items-center gap-4 px-4">
+          <p className="text-center">
+            <time dateTime="2026-02-13">February 13</time>-
+            <time dateTime="2026-02-15">15, 2026</time> &bull; Long Beach, CA
+          </p>
+          <p></p>
+	</div>
+
 	{/*CALL TO ACTION BUTTON*/}
 	{showCTA && <CallToAction />}
 
