@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import GoldenSailsOverview from '@/images/golden-sails-overview.jpg'
+/* import Image from 'next/image' */
+/* import GoldenSailsOverview from '@/images/golden-sails-overview.jpg' */
 
 export default function Venue() {
   return (
@@ -13,7 +13,7 @@ export default function Venue() {
             The beautiful Golden Sails Hotel
           </h1>
           <p className="mt-6 text-xl/8 text-balance text-gray-700">
-								     Located on Belmont Shore in Long Beach, CA, <a href="https://www.goldensailshotel.com/" className="hover:underline hover:decoration-amber-800 text-amber-800 hover:bg-amber-100">Golden Sails Hotel</a> has been StaRGazing's home for the last several years and will again be our venue for 2026!
+								     Located on Belmont Shore in Long Beach, CA, <a href="https://www.goldensailshotel.com/" className="hover:underline hover:decoration-amber-800 text-amber-800 hover:bg-amber-100">Golden Sails Hotel</a> has been StaRGazing&apos;s home for the last several years and will again be our venue for 2026!
           </p>
         </div>
 
@@ -30,7 +30,10 @@ export default function Venue() {
               adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
             </p>
           </div>
-          <div className="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
+
+	  {/* IMAGES */}
+	  {/*
+	  <div className="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
             <div className="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
               <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
                 <img
@@ -62,7 +65,10 @@ export default function Venue() {
               </div>
             </div>
           </div>
-          <div className="max-lg:mt-16 lg:col-span-1">
+	  */}
+
+	  
+	  <div className="max-lg:mt-16 lg:col-span-1">
             <p className="text-base/7 font-semibold text-gray-500">The numbers</p>
             <hr className="mt-6 border-t border-gray-200" />
             <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
