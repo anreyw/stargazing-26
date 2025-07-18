@@ -22,12 +22,10 @@ export default function Venue() {
           <div className="lg:pr-8">
             <h2 className="text-2xl font-semibold tracking-tight text-pretty text-gray-900">Rooms now open for reservation!</h2>
             <p className="mt-6 text-base/7 text-gray-600">
-              Ask for the MENSA block, expected to be on the 4th floor, or a poolside room, while they last!   Call (562) 596-1631 ext. 504/505 during business hours,  Monday-Friday, 9am-5pm Pacific time  Or email dos@goldensailshotel.com
+              Ask for the MENSA block, expected to be on the 4th floor, or a poolside room, while they last!
             </p>
             <p className="mt-8 text-base/7 text-gray-600">
-              Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-              fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-              adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+             No increase from last year’s room price,  guaranteed Thursday through Sunday night, 2/12 - 2/16! 
             </p>
           </div>
 
