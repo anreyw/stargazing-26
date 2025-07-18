@@ -16,7 +16,17 @@ export default function Hero() {
           aria-hidden="true"
           className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl ring-1 shadow-violet-600/10 ring-violet-50 sm:-mr-80 lg:-mr-96"
         />
-        <div className="mx-auto max-w-7xl px-6 py-32 lg:px-8">
+
+	<div className="text-amber-600 font-semibold mx-auto items-center gap-4 px-4 pt-12 md:hidden">
+          <p className="text-center">
+            <time dateTime="2026-02-13">February 13</time>-
+            <time dateTime="2026-02-15">15, 2026</time> &bull; Long Beach, CA
+          </p>
+          <p></p>
+	</div>
+
+	
+        <div className="mx-auto max-w-7xl px-6 py-12 lg:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <h1 className="max-w-2xl text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto">
 																	       Sta<span className="text-amber-600">RG</span>azing 2026
