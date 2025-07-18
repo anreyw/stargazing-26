@@ -37,7 +37,7 @@ export default function Hero() {
 	      </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <CallToAction />
-		<div className="text-sm lg:text-base"><em>2026 Schedule Coming Soon!</em></div>
+		<p className="text-sm lg:text-base"><em>Lock in early bird rates now!</em></p>
               </div>
             </div>
             <Image
