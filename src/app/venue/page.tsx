@@ -68,9 +68,9 @@ export default function Venue() {
                   />
 		</div>
 		<div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
-                  <img
+                  <Image
                     alt=""
-                    src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
+                    src={GoldenSailsGazebo}
                     className="block size-full object-cover"
                   />
 		</div>
