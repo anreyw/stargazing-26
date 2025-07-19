@@ -1,5 +1,3 @@
-import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
-
 export default function Registration() {
   return (    
     <div className="bg-white px-6 py-24 lg:px-8">
