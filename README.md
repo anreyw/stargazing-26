@@ -19,7 +19,7 @@ At this stage, I am not ready for contributors, but will hope to be in the futur
 
 ## 📅 Timeline
 
-- MVP Launch Target: 2025-07-15
+- MVP Launch Target: 2025-08-01
 - Final Launch: 2025-08-31
 
 ---
