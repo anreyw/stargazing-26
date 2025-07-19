@@ -9,8 +9,13 @@ export default function Registration() {
           Registration
         </h1>
         <p className="mt-6 text-xl/8">
-          To register, please download the registration form below.  Once completed, send it by email to [email address] or mail it to [mailing address].  Your registration will be processed once we receive your completed form. 
+					To register for the 2026 StaRGazing Regional Gathering, please download and complete the registration form below.  Once completed, send it by email to <a href="mailto:GlaamRegistrar@outlook.com" className="underline text-amber-700">GlaamRegistrar@outlook.com</a> or mail it to:
         </p>
+	<p className="mt-6 pl-6 text-lg/8">
+          Susan Barr, Registrar<br />
+				       4207 W. 177th Street<br />
+								   Torrance, CA. 90504
+	</p>
         <div className="mt-10 max-w-2xl text-gray-600">
           <p>
             Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
