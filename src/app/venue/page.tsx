@@ -105,6 +105,10 @@ export default function Venue() {
 
 	  
           </section>
+	  <div className="flex justify-center md:justify-start pt-36 text-gray-400">
+	    <small>Images courtesy of Golden Sails Hotel.</small>
+	  </div>
+
 	</div>
       </div>
     </>
