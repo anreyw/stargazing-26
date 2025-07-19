@@ -26,26 +26,13 @@ export default function Registration() {
 				       4207 W. 177th Street<br />
 								   Torrance, CA. 90504
 	</p>
-	<p className="mt-6 text-xl/8">
-					
-	  Make checks payable to 
+	<p className="mt-6 text-xl/8">					
+					Make checks payable to &quot;GLAAM&quot; or &quot;Greater Los Angeles Area Mensa&quot;.
         </p>
-	<p>
-	  You may also email the form to <a href="mailto:GlaamRegistrar@outlook.com" className="underline text-amber-700">GlaamRegistrar@outlook.com</a>
+	<p className="mt-6 text-lg/8 text-gray-500">
+						      Alternatively, you may instead email the registration form to <a href="mailto:GlaamRegistrar@outlook.com" className="underline text-amber-700">GlaamRegistrar@outlook.com</a> and send the check separately by mail or pay online.  Online payment options will be available in August 2025.
 	</p>
-	
-
-        <div className="mt-10 max-w-2xl text-gray-600">
-          <h2 className="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900">
-            Credit Card Payments
-          </h2>
-	  <p>
-	    Coming soon!
-	  </p>
-        
-          
-          
-        </div>                
+	                
       </div>
     </div>
   )
