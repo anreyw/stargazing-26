@@ -27,7 +27,7 @@ export default function Venue() {
             <p className="mt-8 text-base/7 text-gray-600">
              No increase from last year’s room price,  guaranteed Thursday through Sunday night, 2/12 - 2/16! 
             </p>
-	    <p className="mt-8 text-lg/7 font-semibold text-amber-800">
+	    <p className="mt-2 text-lg/7 font-semibold text-amber-800">
               $140.00  per night, excluding tax!
 	    </p>
           </div>
