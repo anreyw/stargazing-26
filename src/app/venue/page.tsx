@@ -22,12 +22,9 @@ export default function Venue() {
           <div className="lg:pr-8">
             <h2 className="text-2xl font-semibold tracking-tight text-pretty text-gray-900">Rooms now open for reservation!</h2>
             <p className="mt-6 text-base/7 text-gray-600">
-              Ask for the MENSA block, expected to be on the 4th floor, or a poolside room, while they last!
+              Ask for the MENSA block, expected to be on the 4th floor, or a poolside room, while they last! No increase from last year’s room price,  guaranteed Thursday through Sunday night, 2/12 - 2/16! 
             </p>
-            <p className="mt-8 text-base/7 text-gray-600">
-             No increase from last year’s room price,  guaranteed Thursday through Sunday night, 2/12 - 2/16! 
-            </p>
-	    <p className="mt-2 text-lg/7 font-semibold text-amber-800">
+	    <p className="mt-6 text-xl/7 font-semibold text-amber-800">
               $140.00  per night, excluding tax!
 	    </p>
           </div>
