@@ -65,69 +65,33 @@ export default function Venue() {
           </div>
 	  */}
 
+	  {/* HOTEL CONTACT INFO */}
 	  
 	  <div className="max-lg:mt-16 lg:col-span-1">
             <p className="text-base/7 font-semibold text-gray-500">Golden Sails Hotel Contact Info</p>
             <hr className="mt-6 border-t border-gray-200" />
 	    
 	    <dl className="mt-6 flex flex-col gap-4">
-
 	      <div>
 		<dt className="text-gray-600">Business Hours</dt>
 		<dd className="text-lg">Monday-Friday 9am - 5pm</dd>
 	      </div>
-
 	      <div>
 		<dt className="text-gray-600">Phone</dt>
-		<dd className="text-lg">(562) 596-1631 ext. 504/505</dd>
+		<dd className="text-lg"><a href="tel:+15625961631" className="underline">(562) 596-1631</a> ext. 504/505</dd>
 	      </div>
-
 	      <div>
 		<dt className="text-gray-600">Email</dt>
-		<dd className="text-lg">dos@goldensailshotel.com</dd>
+		<dd className="text-lg underline"><a href="mailto:dos@goldensailshotel.com">dos@goldensailshotel.com</a></dd>
 	      </div>
-
 	      <div>
 		<dt className="text-gray-600">Address</dt>
-		<dd  className="text-lg">6285 E Pacific Coast Hwy<br />Long Beach, CA 90803</dd>
-	      </div>
-	      
-	    </dl>
-
-
-
-
-
-	    {/*<dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
-              <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-                <dt className="text-sm/6 text-gray-600">Raised</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight text-gray-900">
-                  $<span>150</span>M
-                </dd>
-              </div>
-              <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-                <dt className="text-sm/6 text-gray-600">Companies</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight text-gray-900">
-                  <span>30</span>K
-                </dd>
-              </div>
-              <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
-                <dt className="text-sm/6 text-gray-600">Deals Closed</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight text-gray-900">
-                  <span>1.5</span>M
-                </dd>
-              </div>
-              <div className="flex flex-col gap-y-2">
-                <dt className="text-sm/6 text-gray-600">Leads Generated</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight text-gray-900">
-                  <span>200</span>M
-                </dd>
-              </div>
-              </dl>*/}
-
-
-	    
+		<dd  className="text-lg">6285 E. Pacific Coast Hwy<br />Long Beach, CA 90803</dd>
+	      </div>	      
+	    </dl>  
           </div>
+
+	  
         </section>
       </div>
     </div>
