@@ -3,6 +3,7 @@ import GoldenSailsWide from '@/images/golden-sails-wide.jpg'
 import GoldenSailsDouble from '@/images/golden-sails-double.jpg'
 import GoldenSailsPool from '@/images/golden-sails-pool.jpg'
 import GoldenSailsOutdoors from '@/images/golden-sails-outdoors.jpg'
+import GoldenSailsGazebo from '@/images/golden-sails-gazebo.jpg'
 
 export default function Venue() {
   return (
