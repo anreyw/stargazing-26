@@ -72,8 +72,30 @@ export default function Venue() {
 	  <div className="max-lg:mt-16 lg:col-span-1">
             <p className="text-base/7 font-semibold text-gray-500">Golden Sails Hotel Contact Info</p>
             <hr className="mt-6 border-t border-gray-200" />
+	    
+	    <dl className="mt-6 flex flex-col gap-4">
 
+	      <div>
+		<dt className="text-gray-600">Business Hours</dt>
+		<dd className="text-lg">Monday-Friday 9am - 5pm</dd>
+	      </div>
 
+	      <div>
+		<dt className="text-gray-600">Phone</dt>
+		<dd className="text-lg">(562) 596-1631 ext. 504/505</dd>
+	      </div>
+
+	      <div>
+		<dt className="text-gray-600">Email</dt>
+		<dd className="text-lg">dos@goldensailshotel.com</dd>
+	      </div>
+
+	      <div>
+		<dt className="text-gray-600">Address</dt>
+		<dd  className="text-lg">6285 E Pacific Coast Hwy<br />Long Beach, CA 90803</dd>
+	      </div>
+	      
+	    </dl>
 
 
 
