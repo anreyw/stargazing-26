@@ -11,7 +11,7 @@ export default function Registration() {
         </p>
 	<div className="mt-6">
 	  <a
-            href="#"
+            href="/stargazing-2026-registration-form.pdf"
             className="rounded-md bg-amber-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
 	    download
           >
