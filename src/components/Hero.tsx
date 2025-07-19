@@ -33,7 +33,7 @@ export default function Hero() {
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 space-y-4">
               <p className="text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-											  Join other brilliant minds for the annual <span className="font-bold">Greater Los Angeles Area Mensa <span className="text-amber-600">Regional Gathering</span></span> during our traditional Presidents’ Day weekend, Friday, February 13th to Sunday, February 15th, 2026 in lovely Long Beach, CA.
+											  Join fellow brilliant minds for the annual <span className="font-bold">Greater Los Angeles Area Mensa <span className="text-amber-600">Regional Gathering</span></span> during our traditional Presidents’ Day weekend, Friday, February 13th to Sunday, February 15th, 2026 in lovely Long Beach, CA.
               </p>		    
 	      <p className="text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Register now and enjoy:</p>
 	      <ul role="list" className="text-lg font-medium text-pretty text-gray-600 sm:text-xl/8 pl-8 list-disc marker:text-amber-600 space-y-2">
