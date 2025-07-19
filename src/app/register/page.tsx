@@ -17,41 +17,13 @@ export default function Registration() {
 								   Torrance, CA. 90504
 	</p>
         <div className="mt-10 max-w-2xl text-gray-600">
-          <p>
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id.
-          </p>
-          <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 size-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                blanditiis ratione.
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 size-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non
-                deserunt sunt. Qui irure qui lorem cupidatat commodo.
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 size-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat
-                auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-              </span>
-            </li>
-          </ul>
-          <p className="mt-8">
-            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-            fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-            adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-          </p>
+	  <a
+            href="#"
+            className="rounded-md bg-amber-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
+	    download
+            >
+              Download Form
+          </a>
           <h2 className="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900">
             Payment
           </h2>
@@ -96,21 +68,7 @@ export default function Registration() {
             Faucibus commodo massa rhoncus, volutpat.
           </figcaption>
         </figure>
-        <div className="mt-16 max-w-2xl text-gray-600">
-          <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900">
-            Everything you need to get up and running
-          </h2>
-          <p className="mt-6">
-            Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam varius orci dapibus volutpat cras. In
-            amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie.
-            Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat
-            ac. Cras fermentum convallis quam.
-          </p>
-          <p className="mt-8">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-          </p>
-        </div>
+        
       </div>
     </div>
   )
