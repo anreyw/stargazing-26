@@ -43,24 +43,19 @@ export default function Hero() {
 		<li>a dedicated Kids Track</li>
 	      </ul>
 	      <p className="text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-		All meals included!
+											  All meals included!
 	      </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <CallToAction />
 		<p className="text-sm lg:text-base"><em>Lock in early bird rates now!</em></p>
               </div>
             </div>
-	    <div>
             <Image
               alt="A group of raised hands with a speaker with raised hands in the background."
               src={HandsRaisedImage}
               className="mt-10 aspect-6/5 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
             />
-	      <p className="pt-2 text-xs text-gray-400">Image by <a href="https://unsplash.com/@jaimelopes">Jaime Lopes</a>.</p>
-	    </div>
-	</div>
-
-
+	  </div>
 	  
         </div>
 
