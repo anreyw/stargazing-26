@@ -27,6 +27,9 @@ export default function Venue() {
             <p className="mt-8 text-base/7 text-gray-600">
              No increase from last year’s room price,  guaranteed Thursday through Sunday night, 2/12 - 2/16! 
             </p>
+	    <p className="mt-8 text-lg/7 font-semibold text-amber-800">
+              $140.00  per night, excluding tax!
+	    </p>
           </div>
 
 	  {/* IMAGES */}
@@ -67,9 +70,16 @@ export default function Venue() {
 
 	  
 	  <div className="max-lg:mt-16 lg:col-span-1">
-            <p className="text-base/7 font-semibold text-gray-500">The numbers</p>
+            <p className="text-base/7 font-semibold text-gray-500">Golden Sails Hotel Contact Info</p>
             <hr className="mt-6 border-t border-gray-200" />
-            <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+
+
+
+
+
+
+
+	    {/*<dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
               <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
                 <dt className="text-sm/6 text-gray-600">Raised</dt>
                 <dd className="order-first text-6xl font-semibold tracking-tight text-gray-900">
@@ -94,7 +104,10 @@ export default function Venue() {
                   <span>200</span>M
                 </dd>
               </div>
-            </dl>
+              </dl>*/}
+
+
+	    
           </div>
         </section>
       </div>
