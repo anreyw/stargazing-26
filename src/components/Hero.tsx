@@ -1,7 +1,7 @@
 import CallToAction from '@/components/CallToAction'
 import Image from 'next/image'
 import HeroImage from '@/images/stargazing-hero-image.jpg'
-import HandsRaisedImage from '@/images/hands-raised.jpg'
+import HandRaisedImage from '@/images/hand-raised.jpg'
 
 export default function Hero() {
   return (
@@ -51,10 +51,13 @@ export default function Hero() {
               </div>
             </div>
             <Image
-              alt="A group of raised hands with a speaker with raised hands in the background."
-              src={HandsRaisedImage}
+              alt="A silhouette of an audience with one raised hand with."
+              src={HandRaisedImage}
               className="mt-10 aspect-6/5 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
             />
+	    <p className="text-xs text-gray-400 pt-24">Photo of man raising hand by <a href="https://unsplash.com/@priscilladupreez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Priscilla Du Preez</a> on <a href="https://unsplash.com/photos/group-of-people-k3RZK--S-kk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.
+	    </p>
+      
 	  </div>
 	  
         </div>
