@@ -30,7 +30,7 @@ export default function Registration() {
 					Make checks payable to &quot;GLAAM&quot; or &quot;Greater Los Angeles Area Mensa&quot;.
         </p>
 	<p className="mt-6 text-lg/8 text-gray-500">
-						      Alternatively, you may instead email the registration form to <a href="mailto:GlaamRegistrar@outlook.com" className="underline text-amber-700 hover:bg-amber-100">GlaamRegistrar@outlook.com</a> and send the check payment separately by mail or pay online (with $10 surcharge).  Online payment options will be available in August 2025.
+						      Alternatively, you may instead email the registration form to <a href="mailto:GlaamRegistrar@outlook.com" className="underline text-amber-700 hover:bg-amber-100">GlaamRegistrar@outlook.com</a> and send the check payment separately by mail or pay online (with $10 surcharge).
 	</p>
 	                
       </div>
