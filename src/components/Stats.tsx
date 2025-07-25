@@ -1,8 +1,8 @@
 const stats = [
-  { id: 1, name: 'Conference speakers', value: '42' },
-  { id: 2, name: 'Attendees', value: '200' },
-  { id: 3, name: 'Conference Days', value: '3' },
-]
+  { id: 1, name: "Conference speakers", value: "42" },
+  { id: 2, name: "Attendees", value: "200" },
+  { id: 3, name: "Conference Days", value: "3" },
+];
 
 export default function Stats() {
   return (
@@ -10,7 +10,10 @@ export default function Stats() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
           {stats.map((stat) => (
-            <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
+            <div
+              key={stat.id}
+              className="mx-auto flex max-w-xs flex-col gap-y-4"
+            >
               <dt className="text-base/7 text-gray-600">{stat.name}</dt>
               <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                 {stat.value}
@@ -20,5 +23,5 @@ export default function Stats() {
         </dl>
       </div>
     </div>
-  )
+  );
 }
