@@ -46,14 +46,14 @@ export default function Header() {
 
           {/*HOME ANCHOR LOGO*/}
           <div className="flex">
-            <Link href="/">
+            <a href="https://www.glaam.org/">
               <span className="sr-only">Greater Los Angeles Area Mensa</span>
               <Image
                 alt="Greater Los Angeles Area Mensa logo"
                 src={GlaamLogo}
                 className="h-10 w-auto"
               />
-            </Link>
+            </a>
           </div>
 
           {/*DESKTOP POPOVER MENU*/}
@@ -131,8 +131,8 @@ export default function Header() {
               </button>
 
               {/* HOME ANCHOR LOGO */}
-              <Link
-                href="/"
+              <a
+                href="https://www.glaam.org/"
                 className="-m-1.5 p-1.5"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -142,7 +142,7 @@ export default function Header() {
                   src={GlaamLogo}
                   className="h-10 w-auto"
                 />
-              </Link>
+              </a>
             </div>
 
             {/*CALL TO ACTION BUTTON*/}
