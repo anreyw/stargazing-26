@@ -145,8 +145,6 @@ export default function Header() {
               </a>
             </div>
 
-            {/*CALL TO ACTION BUTTON*/}
-            {showCTA && <CallToAction />}
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
