@@ -1,0 +1,7 @@
+# Ignore artifacts
+build
+coverage
+
+# auto-generated pnpm files
+package.json
+pnpm-lock.yaml
