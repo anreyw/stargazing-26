@@ -9,7 +9,7 @@ export default function Keynote() {
       <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
         Dave Lopez
       </h1>
-      <figure className="flex flex-col sm:flex-row items-center gap-6 py-6">
+      <figure className="flex flex-col items-center gap-6 py-6 sm:flex-row">
         <Image
           alt="Dave Lopez"
           src="/dave-lopez.webp"
@@ -17,7 +17,7 @@ export default function Keynote() {
           height={979}
           className="rounded-xl"
         />
-        <figcaption className="text-lg sm:text-xl/8  text-gray-600">
+        <figcaption className="text-lg text-gray-600 sm:text-xl/8">
           Dave Lopez covered every major story in L.A. and Orange County for 48
           years and was a regular news reporter on KCBS Channel 2. He is author
           of{" "}
