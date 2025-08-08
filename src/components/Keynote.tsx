@@ -17,6 +17,20 @@ export default function Keynote() {
           height={979}
           className="rounded-xl"
         />
+        <figcaption className="text-lg sm:text-xl/8  text-gray-600">
+          Dave Lopez covered every major story in L.A. and Orange County for 48
+          years and was a regular news reporter on KCBS Channel 2. He is author
+          of{" "}
+          <a href="https://a.co/d/3OEc41f" className="underline">
+            <cite>
+              It’s a Great Life If You Don’t Weaken: Family, Faith and 48 Years
+              on Television
+            </cite>
+          </a>
+          . Some of his stories include William Bonin, the Freeway Killer, who
+          confessed to him in jail, and the mid-air plane crash over Cerritos
+          that killed 82, O.J. Simpson murder trial, and the L.A. riots.
+        </figcaption>
       </figure>
     </section>
   );
