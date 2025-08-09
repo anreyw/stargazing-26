@@ -41,7 +41,7 @@ export default function Registration() {
           <br />
           <a
             href="mailto:GlaamRegistrar@outlook.com"
-            className="underline text-amber-700 hover:bg-amber-100"
+            className="text-amber-700 underline hover:bg-amber-100"
           >
             GlaamRegistrar@outlook.com
           </a>

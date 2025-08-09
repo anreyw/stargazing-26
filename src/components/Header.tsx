@@ -57,7 +57,7 @@ export default function Header() {
           </div>
 
           {/*DESKTOP POPOVER MENU*/}
-          <PopoverGroup className="hidden lg:flex lg:gap-x-12 px-6">
+          <PopoverGroup className="hidden px-6 lg:flex lg:gap-x-12">
             <Popover className="relative">
               <PopoverButton className="flex items-center gap-x-1 text-base/6 font-semibold text-gray-900">
                 Schedule
@@ -72,14 +72,14 @@ export default function Header() {
                 className="absolute top-full -left-8 z-50 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
               >
                 <div className="p-12">
-                  <p className="text-center pb-4 text-lg">
+                  <p className="pb-4 text-center text-lg">
                     <em>2026 Schedule Coming Soon!</em>
                   </p>
                   <p>
                     In the meanwhile, please explore schedules from previous
                     years on our{" "}
                     <a
-                      className="underline text-blue-700"
+                      className="text-blue-700 underline"
                       href="https://www.glaam.org/regional-gathering/"
                     >
                       history page
@@ -99,7 +99,7 @@ export default function Header() {
           </PopoverGroup>
         </div>
 
-        <div className="hidden text-amber-600 font-semibold mx-auto md:flex items-center gap-4 px-4">
+        <div className="mx-auto hidden items-center gap-4 px-4 font-semibold text-amber-600 md:flex">
           <p className="text-center">
             <time dateTime="2026-02-13">February 13</time>-
             <time dateTime="2026-02-15">15, 2026</time> &bull; Long Beach, CA
@@ -144,7 +144,6 @@ export default function Header() {
                 />
               </a>
             </div>
-
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
@@ -165,7 +164,7 @@ export default function Header() {
                       In the meanwhile, please explore schedules from previous
                       years on our{" "}
                       <a
-                        className="underline text-blue-700"
+                        className="text-blue-700 underline"
                         href="https://www.glaam.org/regional-gathering/"
                       >
                         history page

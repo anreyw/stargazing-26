@@ -22,7 +22,7 @@ export default function Venue() {
               Located on Belmont Shore in Long Beach, CA,{" "}
               <a
                 href="https://www.goldensailshotel.com/"
-                className="underline hover:decoration-amber-800 text-amber-800 hover:bg-amber-100"
+                className="text-amber-800 underline hover:bg-amber-100 hover:decoration-amber-800"
               >
                 Golden Sails Hotel
               </a>{" "}
@@ -123,7 +123,7 @@ export default function Venue() {
               </dl>
             </div>
           </section>
-          <div className="flex justify-center md:justify-start pt-36 text-gray-400">
+          <div className="flex justify-center pt-36 text-gray-400 md:justify-start">
             <small>Images courtesy of Golden Sails Hotel.</small>
           </div>
         </div>
