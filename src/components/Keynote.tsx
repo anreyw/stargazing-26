@@ -15,7 +15,7 @@ export default function Keynote() {
           src="/dave-lopez.webp"
           width={653}
           height={979}
-          className="rounded-xl"
+          className="max-w-sm rounded-xl"
         />
         <figcaption className="text-lg text-gray-600 sm:text-xl/8">
           Dave Lopez covered every major story in L.A. and Orange County for 48
