@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Keynote() {
   return (
-    <section className="bg-white px-6">
+    <section className="mx-auto max-w-7xl bg-white px-6">
       <p className="text-base/7 font-semibold text-amber-600">
         Keynote Speaker
       </p>
