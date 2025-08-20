@@ -96,6 +96,13 @@ export default function Header() {
             >
               Venue
             </Link>
+
+	    <Link
+              href="/speakers"
+              className="text-base/6 font-semibold text-gray-900"
+            >
+              Speakers
+            </Link>
           </PopoverGroup>
         </div>
 
