@@ -24,9 +24,6 @@ export default function SpeakersPage(): JSX.Element {
               <div className="flex-auto">
                 <h2 className="text-lg/8 font-semibold tracking-tight text-gray-900 dark:text-white">
                   {speaker.name}
-                <p className="text-base/7 text-gray-600 dark:text-gray-400">
-                  {speaker.role}
-                </p>
                 </h2>
                 <p className="mt-6 text-base/7 text-gray-600 dark:text-gray-400">
                   {speaker.bio}
