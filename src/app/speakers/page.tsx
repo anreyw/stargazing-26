@@ -1,6 +1,7 @@
 import { JSX } from "react";
 import speakers from "./speakers";
 import Keynote from "@/components/Keynote";
+import Image from "next/image";
 
 export default function SpeakersPage(): JSX.Element {
   return (
@@ -18,9 +19,11 @@ export default function SpeakersPage(): JSX.Element {
         >
           {speakers.map((speaker) => (
             <li key={speaker.name} className="flex flex-col gap-6">
-              <img
+              <Image
                 alt={speaker.name}
                 src={speaker.imageUrl}
+                width={speaker.imageWidth}
+                height={speaker.imageHeight}
                 className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5 dark:outline-white/10"
               />
               <div className="flex-auto">
