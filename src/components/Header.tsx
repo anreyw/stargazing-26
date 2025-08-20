@@ -58,6 +58,10 @@ export default function Header() {
 
           {/*DESKTOP POPOVER MENU*/}
           <PopoverGroup className="hidden px-6 lg:flex lg:gap-x-12">
+            <Link href="/" className="text-base/6 font-semibold text-gray-900">
+              RG 2026
+            </Link>
+
             <Popover className="relative">
               <PopoverButton className="flex items-center gap-x-1 text-base/6 font-semibold text-gray-900">
                 Schedule
@@ -91,17 +95,16 @@ export default function Header() {
             </Popover>
 
             <Link
-              href="/venue"
-              className="text-base/6 font-semibold text-gray-900"
-            >
-              Venue
-            </Link>
-
-	    <Link
               href="/speakers"
               className="text-base/6 font-semibold text-gray-900"
             >
               Speakers
+            </Link>
+            <Link
+              href="/venue"
+              className="text-base/6 font-semibold text-gray-900"
+            >
+              Venue
             </Link>
           </PopoverGroup>
         </div>
@@ -180,6 +183,13 @@ export default function Header() {
                     </p>
                   </DisclosurePanel>
                 </Disclosure>
+                <Link
+                  href="/speakers"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Speakers
+                </Link>
                 <Link
                   href="/venue"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
