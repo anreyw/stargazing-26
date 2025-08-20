@@ -17,7 +17,7 @@ export default function SpeakersPage(): JSX.Element {
           {speakers.map((speaker) => (
             <li key={speaker.name} className="flex flex-col gap-6 xl:flex-row">
               <img
-                alt=""
+                alt={speaker.name}
                 src={speaker.imageUrl}
                 className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5 dark:outline-white/10"
               />
