@@ -22,12 +22,12 @@ export default function SpeakersPage(): JSX.Element {
                 className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5 dark:outline-white/10"
               />
               <div className="flex-auto">
-                <h3 className="text-lg/8 font-semibold tracking-tight text-gray-900 dark:text-white">
+                <h2 className="text-lg/8 font-semibold tracking-tight text-gray-900 dark:text-white">
                   {speaker.name}
-                </h3>
                 <p className="text-base/7 text-gray-600 dark:text-gray-400">
                   {speaker.role}
                 </p>
+                </h2>
                 <p className="mt-6 text-base/7 text-gray-600 dark:text-gray-400">
                   {speaker.bio}
                 </p>
